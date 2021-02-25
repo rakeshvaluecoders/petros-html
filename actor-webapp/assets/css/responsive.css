@@ -1,0 +1,107 @@
+@media (max-width:1199px) {
+    .footer-content {padding-left: 0;}
+    .app-menu li {margin-right: 40px;}
+    .enduser-events .flex-col-4 {flex: 0 0 33.333333%;  max-width: 33.3333330%;}
+}
+
+@media (max-width:991px) {
+    .canvas-menu.show {visibility: visible; left: 0; }
+    .btn-canvas-menu {display: inline-block;}
+    .account-links {margin-top: -10px;}
+    .account-links .account-dropdown {display: none;}
+    .app-menu {display: none;}
+    .hero-section h1 {font-size: 38px; line-height: 42px;}
+    .hero-section h2 {font-size: 20px; line-height: 26px;}
+    .home-item h3 { font-size: 38px;  line-height: 40px; margin: 20px 0px;}
+    .newsletter h4 {font-size: 28px; line-height: 35px;}
+    .form-newsletter .subscribe {padding-left: 20px; padding-right: 20px;}
+    .hero-section .content {padding-left: 45px;}
+    .other-detail .flex-row {font-size: 14px;  line-height: 20px; margin-top: 10px;}
+    .events-listing .col-content, .share-event {padding-right: 15px;}
+    .create-event {padding-top: 30px;}
+    .myaccount-item .title {margin-bottom: 30px;}
+    .myaccount-item > .flex-row > .flex-col-35, 
+    .myaccount-item > .flex-row > .flex-col-65 { flex: 0 0 100%;  max-width: 100%;    }
+    .page-section .content {padding: 0;}
+    .enduser-newsletter {background:#000}
+    .enduser-events .flex-col-4 {flex: 0 0 50%;  max-width: 50%;}
+}
+
+@media (max-width:767px) {
+    body { font-size: 16px; line-height: 24px;}
+    /***** Grids ****/
+    .flex-container {padding-left: 15px; padding-right: 15px;}
+    .flex-col-1, 
+    .flex-col-2, 
+    .flex-col-3, 
+    .flex-col-4, 
+    .footer-menu li,
+    .events-listing .col-img,
+    .events-listing .col-content,
+    .enduser-events .flex-col-4
+     {flex: 0 0 100%;  max-width: 100%;}
+    /***** pages ****/
+    .logo {max-width: 40px; margin-right: 0;}
+    .primary-button {padding: 14px 55px 15px 55px;}
+     p:last-child {margin-bottom: 0;}
+     .img {text-align: center;}
+    .flex-header {padding: 15px 0px;}
+    .hero-section .primary-button {margin-top: 20px;}
+    .hero-section .img {margin:0;}
+    .home-item {padding: 50px 0px;}
+    .home-item .primary-button {margin-top: 10px;}
+    .home-item p {font-size: 18px; line-height: 24px;}
+    .newsletter {padding-top: 50px;}
+    .app-footer {padding: 50px 0 50px 0px;}
+    .footer-menu {margin-bottom: 15px;}
+    .form-newsletter input {padding-left: 15px;}
+    .events-listing .col-content {padding-top: 0; padding-right: 15px;}
+    .events-listing h3 {margin-top: 0; font-size: 20px; line-height: 26px;}
+    .events-listing h2 { font-size: 26px; line-height: 28px;}
+    .events-section { margin-bottom: 50px; }
+    .btn-cancelEvent {top: 0;}
+    .event-details h1 {font-size: 36px; line-height: 40px; margin-top: 15px;}
+    .breadcrumbs {display: none;}
+    .events-listing .col-img img {width: 100%;}
+    .page-login .app-header {display: none !important;	}
+    .user-section {margin: 15px 0 50px 0px;}
+    .user-section .grey-wrap { padding: 40px 15px 50px 15px;}
+	.login-box h1 {	line-height: 35px;	}
+    .register-wrap {width: 100%;}
+	.register-wrap .field-wrap input,select.chng-arrow,.event-box .forgotlink.ticket,input[type="time"],input[type="date"] {
+		width: 100% !important;	}
+	.register-wrap .flex-row:nth-child(3) .field-wrap img,
+	.register-wrap .flex-row:nth-child(4) .field-wrap img {	right: 0;	}
+	.img.side-line:after {display: none;	}
+	.login-wrap .img {padding-top: 0;}
+	.forgetPswd-wrap .field-wrap {margin: 30px 0px;}
+    label.empty {display: none;}
+    .corp-emails .flex-col-70, .corp-emails .flex-col-30 {flex: 0 0 50%;  max-width: 50%;}
+    .myaccount-section { margin-top: 20px; margin-bottom: 50px;}
+    .myaccount-item .title h4 {font-size: 20px;}
+    .top-heading h1 {margin-bottom: 30px; font-size: 26px;}
+    .grey-wrap .title h1 {font-size: 30px;  line-height: 35px;}
+    .grey-wrap .title p {font-size: 18px;}
+    .page-section {margin-bottom: 50px;}
+    .page-section .title {margin-top: 20px;}
+    .model-head {padding: 20px 20px;}
+    .sidebar-model {width: 98%; right: -100%;}
+    .notification-items .item {padding-left: 0;}
+    .popup-model, .popup-model-alert {top: 30px; left: 15px; right: 15px; width: auto; transform: translate(0%, 0%);}
+    .popup-model .model-head, .popup-model-alert .model-head {padding: 15px 20px;}
+    .popup-model .model-content, .popup-model-alert .model-content {padding: 20px 20px 30px;}
+    .popup-model-alert .model-body h2 { font-size: 24px;  line-height: 28px;}
+    .popup-model-alert .model-body {padding: 0;}
+    .popup-model-alert .model-head {padding-bottom: 0;}
+    .popup-model-alert .primary-button, .popup-model-alert .secondary-button {margin-left: 5px; margin-right: 5px;}
+    .reschedule-model .model-head h2 {font-size: 20px; line-height: 24px; text-align: left; }
+    .popup-model .model-close {top: 13px; right: 15px;}
+    .corp-emails .gutter-space { margin: 0 -5px; }
+    .corp-emails .gutter-space >* { padding: 0 5px; }
+    .login-wrap .img, .forgetPswd-wrap .img {padding-right: 0;}
+    .enduser-newsletter {padding: 0 0 60px 0px;}
+    .enduser-section {  padding-top: 15px; }
+    .enduser-artist {margin-top: 50px;}
+    .event-details {min-height: auto;}
+
+}

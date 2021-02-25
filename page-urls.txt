@@ -1,0 +1,38 @@
+======== Actor web app =======================================================
+
+http://livestage.n1.iworklab.com/actor-webapp/landing.html
+http://livestage.n1.iworklab.com/actor-webapp/home.html
+http://livestage.n1.iworklab.com/actor-webapp/aboutus.html
+http://livestage.n1.iworklab.com/actor-webapp/events.html
+http://livestage.n1.iworklab.com/actor-webapp/events-details.html
+http://livestage.n1.iworklab.com/actor-webapp/login.html
+http://livestage.n1.iworklab.com/actor-webapp/signup.html
+http://livestage.n1.iworklab.com/actor-webapp/forgot.html
+http://livestage.n1.iworklab.com/actor-webapp/email-verification.html
+http://livestage.n1.iworklab.com/actor-webapp/reset.html
+http://livestage.n1.iworklab.com/actor-webapp/reset-confirmation.html
+http://livestage.n1.iworklab.com/actor-webapp/account-confirmation.html
+http://livestage.n1.iworklab.com/actor-webapp/bank.html
+http://livestage.n1.iworklab.com/actor-webapp/create-event.html
+http://livestage.n1.iworklab.com/actor-webapp/event-preview.html
+http://livestage.n1.iworklab.com/actor-webapp/my-account.html
+http://livestage.n1.iworklab.com/actor-webapp/my-account-banking-info.html
+
+======== End user web app =======================================================
+
+http://livestage.n1.iworklab.com/enduser-webapp/home.html
+http://livestage.n1.iworklab.com/enduser-webapp/signup.html
+http://livestage.n1.iworklab.com/enduser-webapp/all-events.html
+
+
+
+
+
+=======================================================================
+
+PENDING UI -
+
+1. Select dropdown is default for now. We will style later once developer use package module for same.
+2. Videos   
+
+

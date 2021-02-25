@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- CSS -->
+      <link href="assets/css/reset.css" rel="stylesheet">
+      <link href="assets/css/stylesheet.css" rel="stylesheet">
+      <link href="assets/css/preeti.css" rel="stylesheet">
+      <link href="assets/css/responsive.css" rel="stylesheet">
+      <title>Banking Information</title>
+   </head>
+   <body>
+      <div id="app" class="page-myaccount">
+         <header class="app-header">
+            <div class="flex-container">
+                <div class="flex-header">
+                    <button class="btn-canvas-menu">
+                        <img src="assets/img/icon-canvasmenu.svg" alt="menu">
+                    </button>
+                    <div class="logo">
+                        <a href="#"><img src="assets/img/logo.svg" alt="logo"></a>
+                    </div>
+
+                    <nav class="app-menu">
+                        <ul>
+                            <li>
+                                <a href="#"><img src="assets/img/home-menu.svg" alt="Home"> Home</a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="assets/img/myevent-menu.svg" alt="My Events"> My Events</a>
+                            </li>
+                            <li class="active">
+                                <a href="#"><img src="assets/img/createevent-menu.svg" alt="Create Events"> Create Events</a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="assets/img/contact-menu.svg" alt="Contact Us"> Contact Us</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <div class="account-links">
+                        <div class="search">
+                            <a class="icon" href="#">Search</a>
+                        </div> 
+                        <div class="notification-bell">
+                            <a class="icon" href="#">Notification</a>
+                            <span class="count"></span>
+                        </div> 
+                        <div class="account-dropdown">
+                            <a class="icon" href="#"><img src="assets/img/icon-userpic.png" alt="User"></a>
+                            <ul>
+                                <li><a href="#">My Account</a></li>
+                                <li><a href="#">About Livestage</a></li>
+                                <li><a href="#">Sign Out</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+         <section class="myaccount-section">
+            <div class="flex-container ">
+               <div class="breadcrumbs">
+                  <ul>
+                      <li><a href="#">Home</a> <span>&#62;</span> </li>
+                      <li><a href="#">My Account</a> <span>&#62;</span> </li>
+                      <li>My Banking Information</li>
+                  </ul>
+              </div>
+              <div class="myaccount banking-information">
+                  <div class="top-heading">
+                     <h1>My Banking Information</h1>
+                  </div>
+                  <div class="form-wrap">
+                     <form class="form-bankingInfo">
+                        <div class="field-wrap">
+                           <label>Bank Account Information</label>
+                           <input type="text" name="" required="" placeholder="Bank Name">
+                           <input type="text" name="" required="" placeholder="Account Number*">
+                           <input type="text" name="" required="" placeholder="IBAN / swift code / sort code">
+                        </div>
+                        <div class="btn-wrap text-center">
+                           <button type="submit" class="primary-button">Save</button> 
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+
+         <footer class="app-footer">
+            <div class="flex-container">
+                <div class="footer-content">
+                    <div class="question">
+                        Questions? Call 415-784-458
+                    </div>
+                    <div class="footer-menu">
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href="#">Cookie Preferences</a></li>
+                            <li><a href="#">Help Centre</a></li>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Event Information</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="copyright">
+                    Copyright 2020. All Rights Reserved Live Stage
+                </div>
+            </div>
+        </footer>
+
+      </div>
+   </body>
+</html>

@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- CSS -->
+      <link href="assets/css/reset.css" rel="stylesheet">
+      <link href="assets/css/stylesheet.css" rel="stylesheet">
+      <link href="assets/css/preeti.css" rel="stylesheet">
+      <link href="assets/css/responsive.css" rel="stylesheet">
+      <title>create-event</title>
+   </head>
+   <body>
+      <div id="app" class="page-create-event">
+         <header class="app-header">
+            <div class="flex-container">
+                <div class="flex-header">
+                    <button class="btn-canvas-menu">
+                        <img src="assets/img/icon-canvasmenu.svg" alt="menu">
+                    </button>
+                    <div class="logo">
+                        <a href="#"><img src="assets/img/logo.svg" alt="logo"></a>
+                    </div>
+
+                    <nav class="app-menu">
+                        <ul>
+                            <li>
+                                <a href="#"><img src="assets/img/home-menu.svg" alt="Home"> Home</a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="assets/img/myevent-menu.svg" alt="My Events"> My Events</a>
+                            </li>
+                            <li class="active">
+                                <a href="#"><img src="assets/img/createevent-menu.svg" alt="Create Events"> Create Events</a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="assets/img/contact-menu.svg" alt="Contact Us"> Contact Us</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <div class="account-links">
+                        <div class="search">
+                            <a class="icon" href="#">Search</a>
+                        </div> 
+                        <div class="notification-bell">
+                            <a class="icon" href="#">Notification</a>
+                            <span class="count"></span>
+                        </div> 
+                        <div class="account-dropdown">
+                            <a class="icon" href="#"><img src="assets/img/icon-userpic.png" alt="User"></a>
+                            <ul>
+                                <li><a href="#">My Account</a></li>
+                                <li><a href="#">About Livestage</a></li>
+                                <li><a href="#">Sign Out</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+         <section class="create-event-section">
+            <div class="flex-container ">
+               <div class="breadcrumbs">
+                  <ul>
+                      <li><a href="#">Home</a> <span>&#62;</span> </li>
+                      <li>Create Event</li>
+                  </ul>
+              </div>
+              <div class="create-event">
+                  <div class="top-heading">
+                     <h1>Create an Event</h1>
+                  </div>
+                  <div class="form">
+                     <form class="form-event">
+                           <div class="field-wrap">
+                              <label>Audience Type</label>
+                              <select name="" id="" class="chng-arrow">
+                                 <option value="">Public</option>
+                              </select>
+                           </div>
+                 
+                           <div class="field-wrap ">
+                              <label>Event Category</label>
+                              <select name="" id="" class="chng-arrow">
+                                 <option value="">Select Event Category</option>
+                              </select>
+                           </div>
+         
+                           <div class="field-wrap ">
+                              <label>Event Title</label>
+                              <input type="text" name="" required="" placeholder="Title*">
+                           </div>
+                        
+                        <div class="flex-row gutter-space">
+                           <div class="flex-col-2">
+                              <div class="field-wrap checkbox">
+                                 <label>Ticket Type</label>
+                                 <div class="ticket">
+                                    <label class="pure-checkbox">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>Limited Ticket
+                                    </label>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="flex-col-2">
+                              <div class="field-wrap checkbox">
+                                 <label class="empty"></label>
+                                 <div class="ticket" style="margin-left:auto;">
+                                    <label class="pure-checkbox">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>Unlimited Ticket
+                                    </label>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                      
+                           <div class="field-wrap">
+                              <label>Normal Ticket Price</label>
+                              <input type="text" name="" required="" placeholder="Normal ticket price( in Euro)">
+                           </div>
+
+                           <div class="field-wrap">
+                              <label>Number of Available Ticket</label>
+                              <input type="text" name="" required="" placeholder="Number of available tickets*">
+                              <input type="text" name="" required="" placeholder="Discount ( in percent)">
+                           </div>
+                     
+                     
+                           <div class="field-wrap">
+                              <label>Select Timezone</label>
+                              <select name="" id="" class="chng-arrow">
+                                 <option value="">Select Timezone</option>
+                              </select>
+                           </div>
+                      
+                        <div class="flex-row gutter-space">
+                           <div class="flex-col-2">
+                              <div class="field-wrap time">
+                                 <label for="birthday">Event Date and Time</label>
+                                 <input type="date" id="birthday" name="birthday">
+                              </div>
+                           </div>
+                           <div class="flex-col-2">
+                              <div class="field-wrap time">
+                                 <label class="empty" for="birthday"></label>
+                                 <input type="time" id="appt" name="appt" placeholder="HH:MM PM">
+                              </div>
+                           </div>
+                        </div>
+                    
+                        <div class="field-wrap file-section">
+                           <label>Select Event Image</label>
+                              <div class="field-upload">
+                                 <label class="label-upload">Choose Files </label>
+                                 <input type="file">
+                                 <p>No files selected</p>
+                              </div>
+                        </div>
+                  
+                        <div class="field-wrap">
+                           <label>Event’s Description</label>
+                           <textarea id="review" name="review" rows="7" cols="50" >Write event description here...
+                           </textarea>
+                        </div>
+              
+      
+                        <div class="btn-wrap text-center">
+                           <button type="submit" class="primary-button">View Preview</button> 
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </div>
+   </body>
+</html>
