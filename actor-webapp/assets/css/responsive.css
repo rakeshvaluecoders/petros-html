@@ -27,6 +27,7 @@
     .enduser-events .flex-col-4 {flex: 0 0 50%;  max-width: 50%;}
 }
 
+
 @media (max-width:767px) {
     body { font-size: 16px; line-height: 24px;}
     /***** Grids ****/
@@ -37,9 +38,8 @@
     .flex-col-4, 
     .footer-menu li,
     .events-listing .col-img,
-    .events-listing .col-content,
-    .enduser-events .flex-col-4
-     {flex: 0 0 100%;  max-width: 100%;}
+    .events-listing .col-content {
+        flex: 0 0 100%;  max-width: 100%;}
     /***** pages ****/
     .logo {max-width: 40px; margin-right: 0;}
     .primary-button {padding: 14px 55px 15px 55px;}
@@ -104,4 +104,10 @@
     .enduser-artist {margin-top: 50px;}
     .event-details {min-height: auto;}
 
+}
+
+
+@media (max-width:639px) { 
+    .enduser-events .flex-col-4 {
+        flex: 0 0 100%;  max-width: 100%;}
 }
