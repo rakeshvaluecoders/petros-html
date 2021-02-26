@@ -43,6 +43,7 @@
     /***** pages ****/
     .logo {max-width: 40px; margin-right: 0;}
     .primary-button {padding: 14px 55px 15px 55px;}
+    .btn-rate-event {margin-top: 5px;}
      p:last-child {margin-bottom: 0;}
      .img {text-align: center;}
     .flex-header {padding: 15px 0px;}
@@ -85,7 +86,6 @@
     .page-section {margin-bottom: 50px;}
     .page-section .title {margin-top: 20px;}
     .model-head {padding: 20px 20px;}
-    .sidebar-model {width: 98%; right: -100%;}
     .notification-items .item {padding-left: 0;}
     .popup-model, .popup-model-alert {top: 30px; left: 15px; right: 15px; width: auto; transform: translate(0%, 0%);}
     .popup-model .model-head, .popup-model-alert .model-head {padding: 15px 20px;}
@@ -104,11 +104,12 @@
     .enduser-artist {margin-top: 50px;}
     .event-details {min-height: auto;}
     .myaccount-item .dp {width: 65px; height: 65px;}
+    .notification-items img {width: 100px;}
 
 }
 
 
 @media (max-width:639px) { 
-    .enduser-events .flex-col-4 {
-        flex: 0 0 100%;  max-width: 100%;}
+    .enduser-events .flex-col-4 {flex: 0 0 100%;  max-width: 100%;}
+    .sidebar-model {width: 98%; right: -100%;}
 }
