@@ -927,6 +927,7 @@ padding: 5px 0 10px 0px;
 	border: 1px solid #fff;
 	width: 100%;
 	max-height: 112px;
+	object-fit: cover;
 }
 
 .profile-photo input {
@@ -1199,6 +1200,9 @@ p img {
 .filterby { position: relative; margin-left: 20px;}
 .filterby-options { display: none; position: absolute; right: 0; top: 30px; z-index: 9; width: 300px; min-height: 300px; padding: 30px 35px; background: #211E1E;box-shadow: -4px 3px 4px rgba(0, 0, 0, 0.04);border-radius: 0px 0px 5px 5px;}
 .filterby:hover .filterby-options {display: block;}
+.events-listing .download {color: #E50914 !important; font-weight: 600; background: url("../img/icon-downloadred.svg") 0 center no-repeat; padding-left: 30px;}
+.events-listing .download {margin-top: 5px;}
+
 
 @media (min-width:768px) {
 	.home-item:nth-child(odd) .flex-col-2:first-child,

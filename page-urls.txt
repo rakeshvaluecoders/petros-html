@@ -25,6 +25,7 @@ http://livestage.n1.iworklab.com/enduser-webapp/signup.html
 http://livestage.n1.iworklab.com/enduser-webapp/all-events.html
 http://livestage.n1.iworklab.com/enduser-webapp/booking-process.html
 http://livestage.n1.iworklab.com/enduser-webapp/my-bookings.html
+http://livestage.n1.iworklab.com/enduser-webapp/my-booking-details.html
 
 
 

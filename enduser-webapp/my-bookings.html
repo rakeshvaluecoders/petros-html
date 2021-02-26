@@ -14,7 +14,8 @@
   </head>
   <body class="">
     
-    <div id="app" class="page-home page-enduserhome">
+    <div id="app" class="page-home page-allevents">
+        
 
         <header class="app-header">
             <div class="flex-container">
@@ -29,13 +30,13 @@
 
                     <nav class="app-menu">
                         <ul>
-                            <li class="active">
+                            <li>
                                 <a href="#"><img src="../actor-webapp/assets/img/home-menu.svg" alt="Home"> Home</a>
                             </li>
                             <li>
                                 <a href="#"><img src="../actor-webapp/assets/img/myevent-menu.svg" alt="My Events"> All Events</a>
                             </li>
-                            <li>
+                            <li class="active">
                                 <a href="#"><img src="../actor-webapp/assets/img/createevent-menu.svg" alt="Create Events"> My Bookings</a>
                             </li>
                             <li>
@@ -65,144 +66,63 @@
             </div>
         </header>
 
-
-
         <section class="events-section">
             <div class="flex-container">
-                <div class="breadcrumbs">
-                    <ul>
-                        <li><a href="#">Home</a> <span>&#62;</span> </li>
-                        <li><a href="#">All Events</a> <span>&#62;</span> </li>
-                        <li>Book Now </li>
-                    </ul>
-                </div>
-                <div class="event-details">
-                    <h1>Event Name Here</h1>
-                    <div class="content">
-                        <div class="date-time">
-                            <div class="flex-row">
-                                <div><img src="../actor-webapp/assets/img/icon-cal.svg" alt="User"> 22 Nov 2020</div>
-                                <div><img src="../actor-webapp/assets/img/icon-watch.svg" alt="User"> 11:45 PM</div>
-                            </div>
-                            <div class="flex-row">
-                                <div>EVENT ID:#EID123</div>
-                                <div><img src="../actor-webapp/assets/img/icon-card.svg" alt="User">  $ 14</div>
-                            </div>
-                        </div>
-                        <p class="cat">Category: Category Name Here </p>
-                        <p class="desc"><strong>Event Description:</strong></p>
-                        <p>Lorem Ipsum is simply dummy text of the sdssprinting and sdss ss typesetting industry. lorem Ipsum has been.</p>
-                    </div>
-                    <button class="primary-button" href="#">Book Now</button>
-
-                    <div class="enduser-artist">
-                        <h4>Artist</h4>
-                        <div class="row-content">
-                            <div class="img">
-                                <img src="../actor-webapp/assets/img/photo-artist.jpg" alt="User">
-                            </div>
-                            <div class="content">
-                                <h5>Artist Name</h5>
-                                <h6>Artist Category Name</h6>
-                                <div class="rating">
-                                    Rating :
-                                    <div class="stars">
-                                        <img src="../actor-webapp/assets/img/starts.png" alt="User">
-                                    </div>
-                                </div>
-                                <p class="p-box">
-                                    Lorem Ipsum is simply dummy text of the printing and sdss ss typesetting.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="events-listing enduser-events">
+                <div class="events-listing">
                     <div class="title">
                         <h2>Upcoming Events</h2>
                         <a class="viewall" href="#">View All</a>
                     </div>
-                    <div class="flex-row gutter-space">
-                        <div class="loop flex-col-4">
-                            <div class="grey-wrap item">
-                                <div class="img">
-                                    <img src="../actor-webapp/assets/img/img-1.jpg" alt="graph">
-                                </div>
+                    <div class="loop grey-wrap item">
+                        <div class="flex-row">
+                            <div class="col-img">
+                                <img src="../actor-webapp/assets/img/img-1.jpg" alt="graph">
+                            </div>
+                            <div class="col-content">
                                 <div class="details">
-                                    <div class="name">
-                                        <h3>Event Name</h3>
-                                        <span>$40</span>
-                                    </div>
-                                    <div class="ticket">
-                                        Tickets Available 
-                                        <span>2000</span>
-                                    </div>
-                                    <div class="date-time">
-                                        25 Dec, 11:45 AM
+                                    <h3>Event Name Dummy Text Here</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiunsectet ursmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <div class="other-detail">
+                                        <div class="flex-row">
+                                            Number of tickets <span>02</span>
+                                        </div>
+                                        <div class="flex-row">
+                                            Price <span>$14</span>
+                                        </div>
+                                        <div class="flex-row">
+                                            Date and Time <span>25 Dec, 11:45 PM </span>
+                                        </div>
+                                        <div class="flex-row">
+                                            <a href="#" class="download" download>Download Ticket Receipt</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="loop flex-col-4">
-                            <div class="grey-wrap item">
-                                <div class="img">
-                                    <img src="../actor-webapp/assets/img/img-2.jpg" alt="graph">
-                                </div>
-                                <div class="details">
-                                    <div class="name">
-                                        <h3>Event Name</h3>
-                                        <span>$40</span>
-                                    </div>
-                                    <div class="ticket">
-                                        Tickets Available 
-                                        <span>2000</span>
-                                    </div>
-                                    <div class="date-time">
-                                        25 Dec, 11:45 AM
-                                    </div>
-                                </div>
+                    <div class="loop grey-wrap item">
+                        <div class="flex-row ">
+                            <div class="col-img">
+                                <img src="../actor-webapp/assets/img/img-2.jpg" alt="graph">
                             </div>
-                        </div>
-
-                        <div class="loop flex-col-4">
-                            <div class="grey-wrap item">
-                                <div class="img">
-                                    <img src="../actor-webapp/assets/img/img-1.jpg" alt="graph">
-                                </div>
+                            <div class="col-content">
                                 <div class="details">
-                                    <div class="name">
-                                        <h3>Event Name</h3>
-                                        <span>$40</span>
-                                    </div>
-                                    <div class="ticket">
-                                        Tickets Available 
-                                        <span>2000</span>
-                                    </div>
-                                    <div class="date-time">
-                                        25 Dec, 11:45 AM
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="loop flex-col-4">
-                            <div class="grey-wrap item">
-                                <div class="img">
-                                    <img src="../actor-webapp/assets/img/img-2.jpg" alt="graph">
-                                </div>
-                                <div class="details">
-                                    <div class="name">
-                                        <h3>Event Name</h3>
-                                        <span>$40</span>
-                                    </div>
-                                    <div class="ticket">
-                                        Tickets Available 
-                                        <span>2000</span>
-                                    </div>
-                                    <div class="date-time">
-                                        25 Dec, 11:45 AM
+                                    <h3>Event Name Dummy Text Here</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiunsectet ursmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <div class="other-detail">
+                                        <div class="flex-row">
+                                            Number of tickets <span>02</span>
+                                        </div>
+                                        <div class="flex-row">
+                                            Price <span>$14</span>
+                                        </div>
+                                        <div class="flex-row">
+                                            Date and Time <span>25 Dec, 11:45 PM </span>
+                                        </div>
+                                        <div class="flex-row">
+                                            <a href="#" class="download" download>Download Ticket Receipt</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -210,98 +130,67 @@
                     </div>
                 </div>
 
-                <div class="events-listing enduser-events">
+                <div class="events-listing">
                     <div class="title">
-                        <h2>Trending Events</h2>
+                        <h2>Past Events</h2>
                         <a class="viewall" href="#">View All</a>
                     </div>
-                    <div class="flex-row gutter-space">
-                        <div class="loop flex-col-4">
-                            <div class="grey-wrap item">
-                                <div class="img">
-                                    <img src="../actor-webapp/assets/img/img-1.jpg" alt="graph">
-                                </div>
+                    <div class="loop grey-wrap item">
+                        <div class="flex-row">
+                            <div class="col-img">
+                                <img src="../actor-webapp/assets/img/img-1.jpg" alt="graph">
+                            </div>
+                            <div class="col-content">
                                 <div class="details">
-                                    <div class="name">
-                                        <h3>Event Name</h3>
-                                        <span>$40</span>
-                                    </div>
-                                    <div class="ticket">
-                                        Tickets Available 
-                                        <span>2000</span>
-                                    </div>
-                                    <div class="date-time">
-                                        25 Dec, 11:45 AM
+                                    <h3>Event Name Dummy Text Here</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiunsectet ursmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <div class="other-detail">
+                                        <div class="flex-row">
+                                            Number of tickets <span>02</span>
+                                        </div>
+                                        <div class="flex-row">
+                                            Price <span>$14</span>
+                                        </div>
+                                        <div class="flex-row">
+                                            Date and Time <span>25 Dec, 11:45 PM </span>
+                                        </div>
+                                        <div class="flex-row">
+                                            <a href="#" class="download" download>Download Ticket Receipt</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="loop flex-col-4">
-                            <div class="grey-wrap item">
-                                <div class="img">
-                                    <img src="../actor-webapp/assets/img/img-2.jpg" alt="graph">
-                                </div>
-                                <div class="details">
-                                    <div class="name">
-                                        <h3>Event Name</h3>
-                                        <span>$40</span>
-                                    </div>
-                                    <div class="ticket">
-                                        Tickets Available 
-                                        <span>2000</span>
-                                    </div>
-                                    <div class="date-time">
-                                        25 Dec, 11:45 AM
-                                    </div>
-                                </div>
+                    <div class="loop grey-wrap item">
+                        <div class="flex-row ">
+                            <div class="col-img">
+                                <img src="../actor-webapp/assets/img/img-2.jpg" alt="graph">
                             </div>
-                        </div>
-
-                        <div class="loop flex-col-4">
-                            <div class="grey-wrap item">
-                                <div class="img">
-                                    <img src="../actor-webapp/assets/img/img-1.jpg" alt="graph">
-                                </div>
+                            <div class="col-content">
                                 <div class="details">
-                                    <div class="name">
-                                        <h3>Event Name</h3>
-                                        <span>$40</span>
-                                    </div>
-                                    <div class="ticket">
-                                        Tickets Available 
-                                        <span>2000</span>
-                                    </div>
-                                    <div class="date-time">
-                                        25 Dec, 11:45 AM
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="loop flex-col-4">
-                            <div class="grey-wrap item">
-                                <div class="img">
-                                    <img src="../actor-webapp/assets/img/img-2.jpg" alt="graph">
-                                </div>
-                                <div class="details">
-                                    <div class="name">
-                                        <h3>Event Name</h3>
-                                        <span>$40</span>
-                                    </div>
-                                    <div class="ticket">
-                                        Tickets Available 
-                                        <span>2000</span>
-                                    </div>
-                                    <div class="date-time">
-                                        25 Dec, 11:45 AM
+                                    <h3>Event Name Dummy Text Here</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiunsectet ursmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <div class="other-detail">
+                                        <div class="flex-row">
+                                            Number of tickets <span>02</span>
+                                        </div>
+                                        <div class="flex-row">
+                                            Price <span>$14</span>
+                                        </div>
+                                        <div class="flex-row">
+                                            Date and Time <span>25 Dec, 11:45 PM </span>
+                                        </div>
+                                        <div class="flex-row">
+                                            <a href="#" class="download" download>Download Ticket Receipt</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
 
